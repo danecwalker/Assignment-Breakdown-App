@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07241AB27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241AA27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift */; };
+		E07241AD27B9ED0E002BEAC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241AC27B9ED0E002BEAC1 /* ContentView.swift */; };
+		E07241AF27B9ED0F002BEAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07241AE27B9ED0F002BEAC1 /* Assets.xcassets */; };
+		E07241B227B9ED0F002BEAC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07241B127B9ED0F002BEAC1 /* Preview Assets.xcassets */; };
+		E07241BC27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241BB27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift */; };
+		E07241C627B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241C527B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift */; };
+		E07241C827B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E07241B827B9ED0F002BEAC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E072419F27B9ED0E002BEAC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07241A627B9ED0E002BEAC1;
+			remoteInfo = AssignmentTimeCalculator;
+		};
+		E07241C227B9ED0F002BEAC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E072419F27B9ED0E002BEAC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07241A627B9ED0E002BEAC1;
+			remoteInfo = AssignmentTimeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E07241A727B9ED0E002BEAC1 /* AssignmentTimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentTimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07241AA27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorApp.swift; sourceTree = "<group>"; };
+		E07241AC27B9ED0E002BEAC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E07241AE27B9ED0F002BEAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E07241B127B9ED0F002BEAC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E07241B727B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTimeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07241BB27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorTests.swift; sourceTree = "<group>"; };
+		E07241C127B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07241C527B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorUITests.swift; sourceTree = "<group>"; };
+		E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07241A427B9ED0E002BEAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241B427B9ED0F002BEAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241BE27B9ED0F002BEAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E072419E27B9ED0E002BEAC1 = {
+			isa = PBXGroup;
+			children = (
+				E07241A927B9ED0E002BEAC1 /* AssignmentTimeCalculator */,
+				E07241BA27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests */,
+				E07241C427B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests */,
+				E07241A827B9ED0E002BEAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07241A827B9ED0E002BEAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07241A727B9ED0E002BEAC1 /* AssignmentTimeCalculator.app */,
+				E07241B727B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.xctest */,
+				E07241C127B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07241A927B9ED0E002BEAC1 /* AssignmentTimeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E07241AA27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift */,
+				E07241AC27B9ED0E002BEAC1 /* ContentView.swift */,
+				E07241AE27B9ED0F002BEAC1 /* Assets.xcassets */,
+				E07241B027B9ED0F002BEAC1 /* Preview Content */,
+			);
+			path = AssignmentTimeCalculator;
+			sourceTree = "<group>";
+		};
+		E07241B027B9ED0F002BEAC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E07241B127B9ED0F002BEAC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E07241BA27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E07241BB27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift */,
+			);
+			path = AssignmentTimeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		E07241C427B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E07241C527B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift */,
+				E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */,
+			);
+			path = AssignmentTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07241A627B9ED0E002BEAC1 /* AssignmentTimeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07241CB27B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculator" */;
+			buildPhases = (
+				E07241A327B9ED0E002BEAC1 /* Sources */,
+				E07241A427B9ED0E002BEAC1 /* Frameworks */,
+				E07241A527B9ED0E002BEAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssignmentTimeCalculator;
+			productName = AssignmentTimeCalculator;
+			productReference = E07241A727B9ED0E002BEAC1 /* AssignmentTimeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E07241B627B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07241CE27B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculatorTests" */;
+			buildPhases = (
+				E07241B327B9ED0F002BEAC1 /* Sources */,
+				E07241B427B9ED0F002BEAC1 /* Frameworks */,
+				E07241B527B9ED0F002BEAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07241B927B9ED0F002BEAC1 /* PBXTargetDependency */,
+			);
+			name = AssignmentTimeCalculatorTests;
+			productName = AssignmentTimeCalculatorTests;
+			productReference = E07241B727B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E07241C027B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07241D127B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculatorUITests" */;
+			buildPhases = (
+				E07241BD27B9ED0F002BEAC1 /* Sources */,
+				E07241BE27B9ED0F002BEAC1 /* Frameworks */,
+				E07241BF27B9ED0F002BEAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07241C327B9ED0F002BEAC1 /* PBXTargetDependency */,
+			);
+			name = AssignmentTimeCalculatorUITests;
+			productName = AssignmentTimeCalculatorUITests;
+			productReference = E07241C127B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E072419F27B9ED0E002BEAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E07241A627B9ED0E002BEAC1 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					E07241B627B9ED0F002BEAC1 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E07241A627B9ED0E002BEAC1;
+					};
+					E07241C027B9ED0F002BEAC1 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E07241A627B9ED0E002BEAC1;
+					};
+				};
+			};
+			buildConfigurationList = E07241A227B9ED0E002BEAC1 /* Build configuration list for PBXProject "AssignmentTimeCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E072419E27B9ED0E002BEAC1;
+			productRefGroup = E07241A827B9ED0E002BEAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07241A627B9ED0E002BEAC1 /* AssignmentTimeCalculator */,
+				E07241B627B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests */,
+				E07241C027B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07241A527B9ED0E002BEAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07241B227B9ED0F002BEAC1 /* Preview Assets.xcassets in Resources */,
+				E07241AF27B9ED0F002BEAC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241B527B9ED0F002BEAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241BF27B9ED0F002BEAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07241A327B9ED0E002BEAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07241AD27B9ED0E002BEAC1 /* ContentView.swift in Sources */,
+				E07241AB27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241B327B9ED0F002BEAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07241BC27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07241BD27B9ED0F002BEAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07241C827B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift in Sources */,
+				E07241C627B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E07241B927B9ED0F002BEAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07241A627B9ED0E002BEAC1 /* AssignmentTimeCalculator */;
+			targetProxy = E07241B827B9ED0F002BEAC1 /* PBXContainerItemProxy */;
+		};
+		E07241C327B9ED0F002BEAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07241A627B9ED0E002BEAC1 /* AssignmentTimeCalculator */;
+			targetProxy = E07241C227B9ED0F002BEAC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E07241C927B9ED0F002BEAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E07241CA27B9ED0F002BEAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E07241CC27B9ED0F002BEAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AssignmentTimeCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E07241CD27B9ED0F002BEAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AssignmentTimeCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E07241CF27B9ED0F002BEAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssignmentTimeCalculator.app/AssignmentTimeCalculator";
+			};
+			name = Debug;
+		};
+		E07241D027B9ED0F002BEAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssignmentTimeCalculator.app/AssignmentTimeCalculator";
+			};
+			name = Release;
+		};
+		E07241D227B9ED0F002BEAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssignmentTimeCalculator;
+			};
+			name = Debug;
+		};
+		E07241D327B9ED0F002BEAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D948JY3BSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danecwalker.AssignmentTimeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AssignmentTimeCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07241A227B9ED0E002BEAC1 /* Build configuration list for PBXProject "AssignmentTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07241C927B9ED0F002BEAC1 /* Debug */,
+				E07241CA27B9ED0F002BEAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07241CB27B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07241CC27B9ED0F002BEAC1 /* Debug */,
+				E07241CD27B9ED0F002BEAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07241CE27B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07241CF27B9ED0F002BEAC1 /* Debug */,
+				E07241D027B9ED0F002BEAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07241D127B9ED0F002BEAC1 /* Build configuration list for PBXNativeTarget "AssignmentTimeCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07241D227B9ED0F002BEAC1 /* Debug */,
+				E07241D327B9ED0F002BEAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E072419F27B9ED0E002BEAC1 /* Project object */;
+}
