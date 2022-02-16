@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var calModel : CalendarModel = CalendarModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            DateView()
+        }
+        .environmentObject(calModel)
     }
 }
 

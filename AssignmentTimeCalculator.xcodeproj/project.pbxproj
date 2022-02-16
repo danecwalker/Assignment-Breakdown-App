@@ -14,6 +14,12 @@
 		E07241BC27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241BB27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests.swift */; };
 		E07241C627B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241C527B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift */; };
 		E07241C827B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */; };
+		E07241D527B9ED42002BEAC1 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241D427B9ED42002BEAC1 /* DateView.swift */; };
+		E07241D727B9ED4D002BEAC1 /* BreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241D627B9ED4D002BEAC1 /* BreakdownView.swift */; };
+		E07241DA27B9EFA1002BEAC1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241D927B9EFA1002BEAC1 /* DataModel.swift */; };
+		E07241DD27B9F5E2002BEAC1 /* BreakdownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07241DC27B9F5E2002BEAC1 /* BreakdownItem.swift */; };
+		E0A7082327BCDF1A009940B2 /* CalendarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A7082227BCDF1A009940B2 /* CalendarListView.swift */; };
+		E0BE6DF827BA80C9007E7072 /* CalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BE6DF727BA80C9007E7072 /* CalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,14 @@
 		E07241C127B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07241C527B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorUITests.swift; sourceTree = "<group>"; };
 		E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E07241D427B9ED42002BEAC1 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		E07241D627B9ED4D002BEAC1 /* BreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownView.swift; sourceTree = "<group>"; };
+		E07241D927B9EFA1002BEAC1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E07241DC27B9F5E2002BEAC1 /* BreakdownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownItem.swift; sourceTree = "<group>"; };
+		E0A7082227BCDF1A009940B2 /* CalendarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListView.swift; sourceTree = "<group>"; };
+		E0BE6DF727BA80C9007E7072 /* CalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalModel.swift; sourceTree = "<group>"; };
+		E0BE6DF927BA80F5007E7072 /* AssignmentTimeCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AssignmentTimeCalculator.entitlements; sourceTree = "<group>"; };
+		E0BE6DFA27BA826F007E7072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +108,15 @@
 		E07241A927B9ED0E002BEAC1 /* AssignmentTimeCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E0BE6DFA27BA826F007E7072 /* Info.plist */,
+				E0BE6DF927BA80F5007E7072 /* AssignmentTimeCalculator.entitlements */,
+				E07241D827B9ED51002BEAC1 /* Views */,
 				E07241AA27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift */,
 				E07241AC27B9ED0E002BEAC1 /* ContentView.swift */,
 				E07241AE27B9ED0F002BEAC1 /* Assets.xcassets */,
 				E07241B027B9ED0F002BEAC1 /* Preview Content */,
+				E07241D927B9EFA1002BEAC1 /* DataModel.swift */,
+				E0BE6DF727BA80C9007E7072 /* CalModel.swift */,
 			);
 			path = AssignmentTimeCalculator;
 			sourceTree = "<group>";
@@ -125,6 +144,17 @@
 				E07241C727B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITestsLaunchTests.swift */,
 			);
 			path = AssignmentTimeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		E07241D827B9ED51002BEAC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E07241D427B9ED42002BEAC1 /* DateView.swift */,
+				E07241D627B9ED4D002BEAC1 /* BreakdownView.swift */,
+				E07241DC27B9F5E2002BEAC1 /* BreakdownItem.swift */,
+				E0A7082227BCDF1A009940B2 /* CalendarListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BE6DF827BA80C9007E7072 /* CalModel.swift in Sources */,
+				E07241DD27B9F5E2002BEAC1 /* BreakdownItem.swift in Sources */,
+				E0A7082327BCDF1A009940B2 /* CalendarListView.swift in Sources */,
+				E07241DA27B9EFA1002BEAC1 /* DataModel.swift in Sources */,
+				E07241D527B9ED42002BEAC1 /* DateView.swift in Sources */,
 				E07241AD27B9ED0E002BEAC1 /* ContentView.swift in Sources */,
+				E07241D727B9ED4D002BEAC1 /* BreakdownView.swift in Sources */,
 				E07241AB27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,12 +452,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssignmentTimeCalculator/AssignmentTimeCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AssignmentTimeCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = D948JY3BSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssignmentTimeCalculator/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow the app to access your calendar.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,12 +484,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AssignmentTimeCalculator/AssignmentTimeCalculator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AssignmentTimeCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = D948JY3BSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssignmentTimeCalculator/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow the app to access your calendar.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
