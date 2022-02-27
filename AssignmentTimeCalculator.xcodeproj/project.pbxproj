@@ -40,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E065194A27CB17F3002ECD73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		E065194C27CB17F3002ECD73 /* screenshot_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_4.png; sourceTree = "<group>"; };
+		E065194D27CB17F3002ECD73 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
+		E065194E27CB17F3002ECD73 /* screenshot_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_3.png; sourceTree = "<group>"; };
+		E065194F27CB17F3002ECD73 /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
 		E07241A727B9ED0E002BEAC1 /* AssignmentTimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentTimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07241AA27B9ED0E002BEAC1 /* AssignmentTimeCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTimeCalculatorApp.swift; sourceTree = "<group>"; };
 		E07241AC27B9ED0E002BEAC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,9 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E065194B27CB17F3002ECD73 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E065194C27CB17F3002ECD73 /* screenshot_4.png */,
+				E065194D27CB17F3002ECD73 /* screenshot_1.png */,
+				E065194E27CB17F3002ECD73 /* screenshot_3.png */,
+				E065194F27CB17F3002ECD73 /* screenshot_2.png */,
+			);
+			path = screenshots;
+			sourceTree = SOURCE_ROOT;
+		};
 		E072419E27B9ED0E002BEAC1 = {
 			isa = PBXGroup;
 			children = (
+				E065194A27CB17F3002ECD73 /* README.md */,
+				E065194B27CB17F3002ECD73 /* screenshots */,
 				E07241A927B9ED0E002BEAC1 /* AssignmentTimeCalculator */,
 				E07241BA27B9ED0F002BEAC1 /* AssignmentTimeCalculatorTests */,
 				E07241C427B9ED0F002BEAC1 /* AssignmentTimeCalculatorUITests */,
